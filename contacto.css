@@ -1,0 +1,144 @@
+/*Encabezado---------------------------------------------*/
+header {
+    background-color: #BBBBBB; 
+    padding: 20px 0; 
+}
+
+/* div de todo el encabezado*/
+.menuopciones{
+    width: 940px;
+    position: relative; 
+    margin: 0 auto; 
+}
+/* menu nav del encabezado*/
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+/* opciones del nav*/
+nav li{
+    display: inline; 
+    margin: 0 0 0 15px; 
+}
+/* texto de las opciones del nav*/
+nav a{
+    text-transform: uppercase; 
+    color: #000000; 
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/*la propiedad hover captura el movimiento del mouse*/
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+/*Body---------------------------------------------*/
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.typeparrafo {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 15px 10px; /* arriba derecha abajo izquierda*/
+    
+ }
+
+.typediv {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 15px 10px; /* arriba derecha abajo izquierda*/
+    padding: 10px 25px;
+    width: 60%;
+    border: 2px solid #BBBBBB;
+    border-radius: 5px;
+ }
+
+ .typediv:hover{
+    display: block;
+    font-size: 22px;
+    margin: 10px 0 15px 10px; /* arriba derecha abajo izquierda*/
+    padding: 10px 25px;
+    width: 60%;
+    border: 2px solid rgb(241, 175, 10);
+    border-radius: 5px;
+    transition: 2s border ;
+ }
+
+ .typedivenv {
+    color: blue;
+    background-color: cornflowerblue;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 15px 10px; /* arriba derecha abajo izquierda*/
+    padding: 10px 25px;
+    width: 60%;
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+ }
+
+ .typedivenv:hover{
+    color: saddlebrown;
+    background-color: burlywood;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 15px 10px; /* arriba derecha abajo izquierda*/
+    padding: 10px 25px;
+    width: 60%;
+    border: 2px solid #c78c19;
+    border-radius: 5px;
+    transition: 2s all ;
+    transform: scale(1.05);
+    cursor: pointer;
+ }
+
+ .typedivenv:active{
+    color: white;
+    background-color: green ;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 15px 10px; /* arriba derecha abajo izquierda*/
+    padding: 10px 25px;
+    width: 60%;
+    border: 2px solid green;
+    border-radius: 5px;
+    transition: 1s all ;
+ }
+
+/*Pie de pagina---------------------------------------------*/
+footer{
+    text-align: center;
+    background: url(webp2ima/bg.jpg) ; 
+    padding: 50px; 
+}
+
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20 ;
+}
+/*tablas---------------------------------------------*/
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 10px 30px;
+    margin: 0 0 0 20%; /* arriba derecha abajo izquierda*/
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<html>
+    <head>     
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="resertstylecontacto.css">
+        <link rel="stylesheet" href="contacto.css">
+        <link rel="stylesheet" href="contacto.html">
+        <title>Contacto - Barbería Alura</title>
+
+        <header>
+            <div class="menuopciones">
+                <h1><img src="webp2ima/logo.png" alt="Logotipo"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="indexbarberia.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </head>
+    <body>
+        <main>
+            <form>
+                <label for="nombre" class="typeparrafo">Nombre y Apellido: </label>
+                <input type="text" class="typediv" id="nombre" placeholder="Redacte su nombre" required>
+
+                <label for="email" class="typeparrafo">Correo electronico: </label>
+                <input type="email" class="typediv" id="email" placeholder="email@dominio.com" required>
+
+                <label for="telefono" class="typeparrafo">Telefono: </label>
+                <input type="tel" class="typediv" id="telefono" placeholder="23234242" required>
+                
+                <label for="mensaje" class="typeparrafo">Mensaje: </label>
+                <textarea cols="70" rows="10" class="typediv" id="mensaje" placeholder="Especifique su solicitud" required></textarea> 
+
+                <fieldset>
+                    <legend class="typeparrafo">¿Como le gustaria que lo contactemos?</legend> 
+    
+                    <label for="radioemail" class="typeparrafo"><input type="radio" name="radiocontacto" value="radioemail" id="radioemail" required>
+                    Email </label>
+
+    
+                    <label for="radiotelefono" class="typeparrafo"><input type="radio" name="radiocontacto" value="radiotelefono" id="radiotelefono" required>
+                    Telefono </label>
+                    
+    
+                    <label for="radiomensaje" class="typeparrafo">
+                    <input type="radio" name="radiocontacto" value="radiomensaje" id="radiomensaje" required checked>
+                    WhastApp </label>
+                                   
+                </fieldset>
+                <fieldset>
+                    <legend class="typeparrafo">¿En cual horario le gustaria ser atendido?</legend> 
+
+                    <select class="typediv" required>
+                        <option value="0" selected>Mañana</option>
+                        <option value="1">Tarde</option>
+                        <option value="2">Noche</option>
+                    </select>
+                </fieldset>
+
+
+                <label class="typeparrafo"><input type="checkbox" checked>
+                ¿Le gustaria recibir novedades de la Barbería Alura?</label>                    
+
+                <input type="submit" class="typedivenv" value="Enviar formulario" style="display: block">                
+
+            </form>
+             <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>      
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h - 20h</td>                
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08h - 20h</td>               
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h - 20h</td>               
+                    </tr>
+                </tbody>
+                <tfoot>
+                </tfoot>
+             </table>
+             
+
+        </main>
+    </body>
+    <footer>
+        <img src="webp2ima/logo-blanco.png" alt="Logotipo">
+        <p class="copyright">
+         &copy Copyright Barbería Alura - 2020  
+        </p>
+
+    </footer>
+
+</html>
